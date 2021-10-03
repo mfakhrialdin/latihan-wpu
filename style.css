@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px/26px arial, sans-serif;
+  background-color: #eaeaea;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: lightsalmon;
+}
+
+.header a:hover {
+  color: blue;
+}
+
+.hero {
+  height: 350px;
+  background-image: url(img/foto.jpg);
+  background-size: cover;
+  background-position: 0 -180px;
+  border-top: 5px solid lightslategray;
+  border-bottom: 5px solid lightsalmon;
+}
+
+.main {
+  padding: 20px;
+  width: 600px;
+  float: left;
+}
+
+.main h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.main .penulis {
+  font-size: 10px;
+  margin-top: -5px;
+}
+
+.main .penulis a {
+  text-decoration: none;
+  color: lightsalmon;
+}
+
+.main .penulis a:hover {
+  color: blue;
+}
+
+.filler {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.copyright {
+  background-color: #333;
+  padding: 10px;
+}
+
+.copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 11px;
+}
+
+.sidebar {
+  float: right;
+  width: 300px;
+  padding: 20px;
+}
+
+.sidebar h3 {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  font: 12px/22px arial;
+}
+
+.profile-picture {
+  width: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
