@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px/26px arial, sans-serif;
+  background-color: #eaeaea;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: lightsalmon;
+}
+
+.header a:hover {
+  color: blue;
+}
+
+.hero {
+  height: 300px;
+  background-image: url(foto.jpg);
+  background-size: cover;
+  background-position: 0 -150px;
+  border-top: 5px solid lightslategray;
+  border-bottom: 5px solid lightsalmon;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 10px;
+  margin-top: -5px;
+}
+
+.content .penulis a {
+  text-decoration: none;
+  color: lightsalmon;
+}
+
+.content .penulis a:hover {
+  color: blue;
+}
+
+.filler {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.copyright {
+  background-color: #333;
+  padding: 10px;
+}
+
+.copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 11px;
+}
